@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * This code links the main library
- * prints using a function puts "Programming is like building a multilingual puzzle
- * returns 0 upon success
+ * main-executes the text in the function puts
+ * Description:using the main function
+ * This program prints "Programming is like building a multilingual puzzle
+ * return:0 upon success
  */
 int main(void){
-	puts ("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
