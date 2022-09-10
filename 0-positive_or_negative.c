@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-	int numb;
+	int n;
 
 	srand(time(0));
-	numb = rand() - RAND_MAX / 2;
-        	if (numb > 0)
-			printf("%d is positive\n", numb);
-		else if (numb < 0)
-			printf("%d is negative\n", numb);
+	n = rand() - RAND_MAX / 2;
+	        if (n > 0)
+			printf("%d is positive\n", n);
+		else if (n < 0)
+			printf("%d is negative\n", n);
 		else
-			printf("%d is zero\n", numb);
+			printf("%d is zero\n", n);
 	return (0);
 }
