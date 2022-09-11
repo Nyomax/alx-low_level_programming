@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	char cha = a;
-		for (cha = 'a'; cha = 'z'; cha++)
+	char cha = 'a';
+		for (cha = 'a'; cha <= 'z'; cha++)
 		putchar(cha);
 		putchar('\n');
 	return (0);
