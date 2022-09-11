@@ -19,5 +19,6 @@ int main(void)
 	printf("Size of a long int: %ld byte(s)\n", sizeof(for_long));
 	printf("Size of a long long int: %ld bytes(s)\n", sizeof(for_longlong));
 	printf("Size of a float: %ld byte(s)", sizeof(for_float));
+	printf(stderr,"No error occured");
 	return (0);
 }
