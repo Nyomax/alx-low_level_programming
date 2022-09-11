@@ -4,7 +4,7 @@
  * Description:prints the alphabet in lowercase, and then in uppercase,
  * followed by a new line
  */
-int main(void);
+int main(void)
 {
 	char ch;
 		for (ch = 'a'; ch <= 'z'; ch++);
