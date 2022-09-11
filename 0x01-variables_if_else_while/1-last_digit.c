@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main-runs the function srand
- * Description:this will assign a random number to the variable n 
+ * Description:this will assign a random number to the variable n
  * each time it is executed
  * Return:0 if successful
  */
