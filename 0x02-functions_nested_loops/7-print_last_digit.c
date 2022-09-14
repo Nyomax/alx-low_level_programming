@@ -4,11 +4,11 @@
  *@last_digit:argument of the function
  *Return:0
  */
-int print_last_digit(last_digit)
+int print_last_digit(int last_digit)
 {
 	int p;
-	int last_digit = p % 10;
 
+	last_digit = p % 10;
 	if (last_digit < 0)
 	{
 		last_digit *= -1;
