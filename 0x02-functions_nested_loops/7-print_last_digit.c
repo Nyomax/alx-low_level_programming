@@ -6,7 +6,7 @@
  */
 int print_last_digit(int p)
 {
-	last_digit = p % 10;
+	int last_digit = p % 10;
 
 	if (last_digit < 0)
 	{
@@ -15,4 +15,3 @@ int print_last_digit(int p)
 		return last_digit;
 	}
 }
-	
