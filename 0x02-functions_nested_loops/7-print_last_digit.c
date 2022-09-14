@@ -1,11 +1,12 @@
 #include "main.h"
 /**
  *print_last_digit - a function that prints the last digit of a number
- *@p:argument of the function
+ *@last_digit:argument of the function
  *Return:0
  */
-int print_last_digit(int p)
+int print_last_digit(last_digit)
 {
+	int p;
 	int last_digit = p % 10;
 
 	if (last_digit < 0)
