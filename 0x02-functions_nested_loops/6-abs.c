@@ -2,8 +2,8 @@
 /**
  *_abs - a function that computes the absolute value of an integer.
  *@p:argument of the function
- * Return: Always 0.
- * /
+ *Return: Always 0.
+ */
 int _abs(int p)
 {
 	if (p > 0)
