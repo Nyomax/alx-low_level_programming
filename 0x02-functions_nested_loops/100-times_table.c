@@ -5,11 +5,11 @@
  * Description:executes the argument n
  * @n:argument of the function
  */
- void print_times_table(int n)
+void print_times_table(int n)
 {
 	int i, j, k;
 
-	if (n > 15 || n < 0)
+	if (n > 15 || n < 0i)
 	return;
 	while (i <= n)
 	{
