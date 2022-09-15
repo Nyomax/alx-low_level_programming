@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - main function
+/**
+ * main - main block
  * Description:program that finds and prints the sum of the even-valued terms,
  * followed by a new line with not exceeding 4,000,000
  * Return: 0
