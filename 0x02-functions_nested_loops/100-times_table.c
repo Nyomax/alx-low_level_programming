@@ -9,7 +9,7 @@
 {
 	int i, j, k;
 
-	if (n > 15 || n < 0);
+	if (n > 15 || n < 0)
 	return;
 	while (i <= n)
 	{
@@ -35,7 +35,7 @@
 				_putchar(k + '0');
 			}
 			else
-				_putchar(z + '0');
+				_putchar(k + '0');
 
 			if (j != n)
 			{
