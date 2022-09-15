@@ -20,8 +20,9 @@ void times_table(void)
 			if (k <= 9)
 				_putchar(32);
 			else
-				_putchar((k / 10 ) + '0');
+				_putchar((k / 10) + '0');
 			_putchar((k % 10) + '0');
 		}
+		_putchar('\n');
 	}
 }
