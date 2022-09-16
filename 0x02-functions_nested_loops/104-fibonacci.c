@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	unsigned long int f1 = 0, p1 = 1, f2 = 0, p2 = 2;
+	unsigned long int f1 = 0, b1 = 1, b2 = 0, p2 = 2;
 	unsigned long int hold1, hold2, hold3;
 	int count;
 
