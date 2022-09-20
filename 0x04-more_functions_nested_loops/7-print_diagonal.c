@@ -15,14 +15,15 @@ void print_diagonal(int n)
 		{
 			if (num2 == num1)
 				{
-					_putchar('\\');
+					_putchar(92);
 				}
-				else
-					_putchar(' ');
-				num2++;
+			else
+				_putchar(' ');
+			num2++;
 		}
 		_putchar('\n');
 		num1++;
+		num2 = 0;
 	}
 	if (n <= 0)
 		_putchar('\n');
