@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * leet - function that encodes a string into 1337.
  * @s: Pointer to char
@@ -22,7 +21,6 @@ char *leet(char *s)
 			}
 			j++;
 		}
-		j = 0;
 		i++;
 	}
 	return (s);
