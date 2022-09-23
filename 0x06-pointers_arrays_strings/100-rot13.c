@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * rot13 - Function that reverses the content of an array of integers.
- * @s: s is the array
- * Return: always 0.
+ * rot13 - function that encodes a string using rot13.
+ * @s: pointer to char
+ * Return: char
  */
 char *rot13(char *s)
 {
