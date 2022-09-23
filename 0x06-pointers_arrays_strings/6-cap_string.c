@@ -6,9 +6,10 @@
  */
 char *cap_string(char *s)
 {
-	int i = 1, j, check;
+	int i = 1;
+	int j, check;
 	char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
-
+	
 	if (s[0] > 96 && s[0] < 123)
 		s[0] -= 32;
 
