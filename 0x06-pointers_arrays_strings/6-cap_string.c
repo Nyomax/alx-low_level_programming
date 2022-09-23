@@ -7,30 +7,30 @@
 char *cap_string(char *s)
 {
 	int i = 0;
-	int j, check;
-	char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
-	
-	if (s[0] > 96 && s[0] < 123)
-		s[0] -= 32;
 
-	while (s[i] != '\0')
+	while (*(s + i) != '\0')
 	{
-		if (s[i] > 96 && s[i] < 123)
+		if (i == 0)
+			*(s + i) = *(ch + i) - ' ';
+		if (*(s + i) == ' ' || *(s + i) == '\t')
+			i++;
+		else if (*(s + i) == '\n' || *(s + i) == ',')
+			i++;
+		else if (*(s + i) == ';' || *(s + i) == '.')
+			i++;
+		else if (*(s + i) == '!' || *(s + i) == '?')
+			i++;
+		else if (*(s + i) == '"' || *(s + i) == '(')
+			i++;
+		else if (*(s + i) == ')' || *(s + i) == '{')
+			i++;
+		else if (*(s + i) == '}')
+			i++;
+		if (*(s + i) >= 97 && *(s + i) <= 122)
 		{
-			j = 0;
-			check = 0;
-			while (check == 0 && j < 13)
-			{
-				if (s[i - 1] == a[j])
-				{
-					check = 1;
-				}
-				j++;
-			}
-			if (check == 1)
-				s[i] -= 32;
+			*(s + i) = *(s + i) - ' ';
+			i++;
 		}
-		i++;
 	}
 	return (s);
 }
