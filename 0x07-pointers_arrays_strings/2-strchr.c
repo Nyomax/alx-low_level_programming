@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * _strchr - function that locates a character in a string.
+ * @s: string to receive and return variable
+ * @c: character to receive
+ * Return: char
+ */
+char *_strchr(char *s, char c)
+{
+	while (*s != c)
+	{
+		if (!*s++)
+		{
+			return (0);
+		}
+		else
+	}
+	return (s);
+}
