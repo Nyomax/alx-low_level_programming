@@ -3,7 +3,7 @@
  * getNumSqr - function that gets the square root
  * @a: input number
  * @b: Counter variable
- * return: int
+ * Return: int
  */
 int getNumSqr(int a, int b)
 {
