@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - a program that multiplies two numbers.
- * @argc: he number of command line arguments
+ * @argc: the number of command line arguments
  * @argv: An array containing the program command line arguments.
  * Return: Nothing.
  */
