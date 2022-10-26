@@ -3,17 +3,17 @@
 #include <stdlib.h>
 /**
  * list_len - Calculate the number of elements.
- * @h: Pointer to a list.
+ * @h: header pointer
  * Return: Integer.
  */
 size_t list_len(const list_t *h)
 {
-	unsigned int counter = 0;
+	size_t count = 0;
 
 	while (h != NULL)
 	{
-		counter++;
 		h = h->next;
+		count++;
 	}
-	return (counter);
+	return (count);
 }
