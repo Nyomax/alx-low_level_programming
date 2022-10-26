@@ -13,7 +13,7 @@ size_t print_listint(const listint_t *h)
 	while (h)
 	{
 		if (h->str == NULL)
-			printf("[%u] %s\n", 0, "(nil)");
+			printf("[0] (nil)\n");
 		else
 			printf("[%u] %s\n", h->len, h->str);
 
