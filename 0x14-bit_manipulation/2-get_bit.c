@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <math.h>
 /**
  * set_bit - function that sets the value of a bit to 1 at
  * a given index.
