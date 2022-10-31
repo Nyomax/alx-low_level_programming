@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 /**
  * print_binary - function that prints the binary representation of a number
  * @b: argument of function pointing to a string of 0 and 1 char
@@ -16,6 +16,7 @@ unsigned int binary_to_uint(const char *b)
 	while (*b != '\0')
 	{
 		value = value << 1;
+
 		if (*b != '1' && *b != '0')
 			return (0);
 		else if (*b == '1')
