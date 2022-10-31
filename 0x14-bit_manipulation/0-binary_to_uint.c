@@ -4,9 +4,8 @@
  * print_binary - function that prints the binary representation of
  * a number
  * @b: argument of function pointing to a string of 0 and 1 char
- * Return: returns the converted number or 0 if
- * -> tone or more chars in the string b that is not 0 or 1
- * -> b is NULL
+ * Return: returns the converted number or 0 if one
+ * or more chars in the string b that is not 0 or 1 if b is NULL
  */
 unsigned int binary_to_uint(const char *b)
 {
